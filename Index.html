@@ -29,16 +29,19 @@
     </style>
 </head>
 <body>
-    <div id="barra-busqueda">
-        <input 
-            type="text" 
-            id="direccion" 
-            placeholder="Calle Número, Providencia, Santiago" 
-            
-            width= 12%
-        />
-        <button onclick="buscarDireccion()" style="padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">Buscar</button>
-    </div>
+   <div id="barra-busqueda" style="width: 12%; margin: 10px 0;">
+    <input 
+        type="text" 
+        id="direccion" 
+        placeholder="Calle Número, Providencia, Santiago" 
+        style="width: 100%; padding: 10px; margin-bottom: 10px;"
+    />
+    <button onclick="buscarDireccion()" 
+        style="width: 100%; padding: 10px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Buscar
+    </button>
+</div>
+
 
 <div id="selector">
     <label for="tematica">Selecciona una Temática:</label> <br>
